@@ -1,0 +1,34 @@
+adsu_lms/
+├── index.php                  (landing page / login)
+├── dashboard.php             (role-based redirect)
+├── api/                      (RESTful endpoints)
+│   ├── auth.php
+│   ├── courses.php
+│   ├── appointments.php
+│   ├── assignments.php
+│   ├── materials.php
+│   └── notifications.php
+├── includes/
+│   ├── config.php            (database connection)
+│   ├── auth.php              (JWT helper, session)
+│   ├── functions.php
+│   └── middleware.php
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
+│   └── uploads/              (course materials, submissions)
+├── modules/
+│   ├── admin/
+│   ├── lecturer/
+│   └── student/
+├── vendor/                   (composer for JWT, PHPMailer)
+├── .htaccess
+└── README.md
+
+
+
+Email: admin@adsu.edu.ng
+
+Password: Admin@123
